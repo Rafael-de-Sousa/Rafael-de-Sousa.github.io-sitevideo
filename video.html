@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seu Vídeo</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body oncontextmenu="return false;">
+    <div class="header">
+        <div class="logo">
+            <img src="logo2.png" alt="logo"/>
+        </div>
+        <div class="divBusca2">
+            <img src="icons8-search-26.png" alt="Buscar..." />
+            <input type="search" class="txtBusca2" placeholder="Buscar..." />
+            <button class="btnBusca2">Buscar</button>
+        </div>
+    </div>
+    <div class="row">
+        <div id="video" class="player-video" onmouseover="prepare(this)">
+            <video class="video-view">
+                <source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4" />
+            </video>
+            <div class="video-controls">
+                <div class="video-progress-bar">
+                    <div class="video-loader"></div>
+                    <div class="video-progress"></div>
+                </div>
+
+                <div class="video-play float-left video-btn"></div>
+                <div class="video-volume float-left video-btn"></div>
+                <div class="slider float-left">
+                    <div class="slider-vol"></div>
+                </div>
+                <div class="video-time float-left">00:00 | 00:00</div>
+                <div class="video-screen float-right video-btn"></div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <footer class="footer">
+        <p>Acesse <a href="https://www.youtube.com/" target="_blank">www.youtube.com</a></p>
+    </footer>
+</body>
+
+</html>
