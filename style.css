@@ -14,11 +14,11 @@
 }
 
 body{
-    background-color: #000;
+    background-color: #333;
 }
 
 .header {
-    background-color: #333;
+    background-color: #000;
     padding: 20px;
     text-align: center;
     height: 50px;
@@ -31,7 +31,7 @@ body{
 }
 
 .footer {
-    background-color: #333;
+    background-color: #000;
     color: #ddd;
     padding: 30px;
     text-align: center;
@@ -91,8 +91,9 @@ a{
     float: left;
 }
 
-.btnBusca2{
+.btnBusca2:hover{
     cursor: pointer;
+    background-color: #333;
 }
 
 /*Player video*/
